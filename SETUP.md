@@ -32,7 +32,7 @@ copy .env.example .env
 
 ```env
 # 飞书配置
-FEISHU_APP_ID=cli_aac6e3fb60649cff
+FEISHU_APP_ID=your_feishu_app_id_here
 FEISHU_APP_SECRET=你的飞书应用密钥
 FEISHU_TENANT_ACCESS_TOKEN=你的飞书访问令牌
 
@@ -58,7 +58,7 @@ import requests
 import json
 
 # 替换为你的App ID和Secret
-app_id = "cli_aac6e3fb60649cff"
+app_id = "your_feishu_app_id_here"
 app_secret = "你的应用密钥"
 
 url = "https://open.feishu.cn/open-apis/auth/v3/tenant_access_token/internal"
